@@ -44,7 +44,6 @@
 		DCDD90631DE8215600222438 /* UIImage+kmExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+kmExt.m"; sourceTree = "<group>"; };
 		DCDD90651DE821FC00222438 /* UIView+kmExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+kmExt.h"; sourceTree = "<group>"; };
 		DCDD90661DE821FC00222438 /* UIView+kmExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+kmExt.m"; sourceTree = "<group>"; };
-		DCDD90681DE830D400222438 /* KMCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +107,6 @@
 				DCDD904D1DE7DBA500222438 /* NSString */,
 				DCDD90501DE7DBA500222438 /* UIImage */,
 				DCDD90531DE7DBA500222438 /* UIView */,
-				DCDD90681DE830D400222438 /* KMCategories.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Project/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Project/Classes/KMCategories.h","Project/Class/**/*.h"
+  # s.public_header_files = "Project/Classes/KMCategories.h","Project/Class/**/*.h"
 
   s.ios.deployment_target = "7.0"
 
