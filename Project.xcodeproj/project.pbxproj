@@ -198,7 +198,7 @@
 				TargetAttributes = {
 					DCDD90271DE7DB1500222438 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2E38PQV246;
+						DevelopmentTeam = 7QMD9LVCM8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -367,7 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Guangjiu Zhao (3PA92SR9SL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guangjiu Zhao (3PA92SR9SL)";
 				DEVELOPMENT_TEAM = 2E38PQV246;
 				INFOPLIST_FILE = Project/Info.plist;
@@ -383,7 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Guangjiu Zhao (3PA92SR9SL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guangjiu Zhao (3PA92SR9SL)";
 				DEVELOPMENT_TEAM = 2E38PQV246;
 				INFOPLIST_FILE = Project/Info.plist;
