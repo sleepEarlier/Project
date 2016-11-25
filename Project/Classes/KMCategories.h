@@ -9,9 +9,9 @@
 #ifndef KMCategories_h
 #define KMCategories_h
 
-#import "UIView+kmExt.h"
-#import "UIImage+kmExt.h"
-#import "NSString+kmExt.h"
-#import "NSDictionary+kmExt.h"
+#import <KMCategories/UIView+kmExt.h>
+//#import "UIImage+kmExt.h"
+//#import "NSString+kmExt.h"
+//#import "NSDictionary+kmExt.h"
 
 #endif /* KMCategories_h */
