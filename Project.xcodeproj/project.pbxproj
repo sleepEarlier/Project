@@ -22,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC0C9BA11DEC3AAE0004D636 /* KMCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCategories.h; sourceTree = "<group>"; };
 		DCDD90281DE7DB1500222438 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDD902C1DE7DB1500222438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCDD902E1DE7DB1500222438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 				DCDD904D1DE7DBA500222438 /* NSString */,
 				DCDD90501DE7DBA500222438 /* UIImage */,
 				DCDD90531DE7DBA500222438 /* UIView */,
+				DC0C9BA11DEC3AAE0004D636 /* KMCategories.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -196,7 +198,7 @@
 				TargetAttributes = {
 					DCDD90271DE7DB1500222438 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 7QMD9LVCM8;
+						DevelopmentTeam = 2E38PQV246;
 						ProvisioningStyle = Automatic;
 					};
 				};
