@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KMCategory"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Some categories methods"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/sleepEarlier/Project.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/sleepEarlier/Project.git", :tag => s.version }
 
   s.source_files  = "Project/Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
