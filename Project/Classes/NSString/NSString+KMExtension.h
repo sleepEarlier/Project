@@ -8,10 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (kmExt)
+@interface NSString (KMExtension)
+
+/// MD5 Encoded String
 - (NSString *) km_md5;
+
+/// UUID String
 + (NSString *) km_uniqueString;
+
+/// URL Encoded String
 - (NSString *) km_urlEncodedString;
+
+/// URL Decoded String
 - (NSString *) km_urlDecodedString;
+
+/// Json str to Json obj
 - (id) km_JSONObject;
+
+/// full string range
+- (NSRange)km_range;
+
 @end

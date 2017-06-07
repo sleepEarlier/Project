@@ -9,16 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 
-typedef void(^OnSuccess)(CLLocation *location, NSArray<CLPlacemark *> *placemarks);
+typedef void(^OnSuccess)(CLLocation *location, id result);
 typedef void(^OnFail)(NSError *error);
 @interface KMLocationHelp : NSObject
 
 /**
- *  开始获取地理位置
+ *  start to get user location
  *
- *  @param complete 获取成功回调, 参数location为地球坐标
- *  @param refuse   失败回调，无用户权限时参数Error为nil，获取位置失败时Error有值
- *  @param shouldDecode 是否将地理位置反编译成地点信息
+ *  @param complete callback on success with Eearth Coordinate location (获取成功回调, 参数location为地球坐标)
+ *  @param fail callback on fail with a error infomation (失败回调，提供错误信息)
+ *  @param shouldDecode should decode CLLocation to CLPlacemarks, if so result is @[<CLPlacemark *>], else a CLLocation object.(是否将地理位置反编译成地点信息)
  */
 - (void)getLocationWithCompletion:(OnSuccess)complete fail:(OnFail)fail decodeLocation:(BOOL)shouldDecode;
 
@@ -26,16 +26,16 @@ typedef void(^OnFail)(NSError *error);
 
 
 @interface CLLocation (translate)
-//从地图坐标转化到火星坐标
+/// Earth coordinate to Mars coordinate (从地图坐标转化到火星坐标)
 - (CLLocation*)locationMarsFromEarth;
 
-//从火星坐标转化到百度坐标
+/// Mars coordinate to Baidu map coordinate (从火星坐标转化到百度坐标)
 - (CLLocation*)locationBaiduFromMars;
 
-//从百度坐标到火星坐标
+/// Baidu map coordinate to Mars coordinate (从百度坐标到火星坐标)
 - (CLLocation*)locationMarsFromBaidu;
 
-/// 是否在中国区域外
+/// is location out of china (是否在中国区域外)
 - (BOOL)outOfChina;
 
 @end

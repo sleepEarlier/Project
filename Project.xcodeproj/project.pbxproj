@@ -15,10 +15,10 @@
 		DCDD903B1DE7DB1500222438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDD90391DE7DB1500222438 /* LaunchScreen.storyboard */; };
 		DCDD90561DE7DBA500222438 /* SoundsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90461DE7DBA500222438 /* SoundsPlayer.m */; };
 		DCDD90571DE7DBA500222438 /* KMLocationHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90491DE7DBA500222438 /* KMLocationHelp.m */; };
-		DCDD905E1DE7DBF000222438 /* NSDictionary+kmExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD905D1DE7DBF000222438 /* NSDictionary+kmExt.m */; };
-		DCDD90611DE7DC9000222438 /* NSString+kmExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90601DE7DC9000222438 /* NSString+kmExt.m */; };
-		DCDD90641DE8215600222438 /* UIImage+kmExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90631DE8215600222438 /* UIImage+kmExt.m */; };
-		DCDD90671DE821FC00222438 /* UIView+kmExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90661DE821FC00222438 /* UIView+kmExt.m */; };
+		DCDD905E1DE7DBF000222438 /* NSDictionary+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD905D1DE7DBF000222438 /* NSDictionary+KMExtension.m */; };
+		DCDD90611DE7DC9000222438 /* NSString+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90601DE7DC9000222438 /* NSString+KMExtension.m */; };
+		DCDD90641DE8215600222438 /* UIImage+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90631DE8215600222438 /* UIImage+KMExtension.m */; };
+		DCDD90671DE821FC00222438 /* UIView+KMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDD90661DE821FC00222438 /* UIView+KMExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,14 +37,14 @@
 		DCDD90461DE7DBA500222438 /* SoundsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundsPlayer.m; sourceTree = "<group>"; };
 		DCDD90481DE7DBA500222438 /* KMLocationHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLocationHelp.h; sourceTree = "<group>"; };
 		DCDD90491DE7DBA500222438 /* KMLocationHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLocationHelp.m; sourceTree = "<group>"; };
-		DCDD905C1DE7DBF000222438 /* NSDictionary+kmExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+kmExt.h"; sourceTree = "<group>"; };
-		DCDD905D1DE7DBF000222438 /* NSDictionary+kmExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+kmExt.m"; sourceTree = "<group>"; };
-		DCDD905F1DE7DC9000222438 /* NSString+kmExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+kmExt.h"; sourceTree = "<group>"; };
-		DCDD90601DE7DC9000222438 /* NSString+kmExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+kmExt.m"; sourceTree = "<group>"; };
-		DCDD90621DE8215600222438 /* UIImage+kmExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+kmExt.h"; sourceTree = "<group>"; };
-		DCDD90631DE8215600222438 /* UIImage+kmExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+kmExt.m"; sourceTree = "<group>"; };
-		DCDD90651DE821FC00222438 /* UIView+kmExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+kmExt.h"; sourceTree = "<group>"; };
-		DCDD90661DE821FC00222438 /* UIView+kmExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+kmExt.m"; sourceTree = "<group>"; };
+		DCDD905C1DE7DBF000222438 /* NSDictionary+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KMExtension.h"; sourceTree = "<group>"; };
+		DCDD905D1DE7DBF000222438 /* NSDictionary+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KMExtension.m"; sourceTree = "<group>"; };
+		DCDD905F1DE7DC9000222438 /* NSString+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KMExtension.h"; sourceTree = "<group>"; };
+		DCDD90601DE7DC9000222438 /* NSString+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KMExtension.m"; sourceTree = "<group>"; };
+		DCDD90621DE8215600222438 /* UIImage+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KMExtension.h"; sourceTree = "<group>"; };
+		DCDD90631DE8215600222438 /* UIImage+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KMExtension.m"; sourceTree = "<group>"; };
+		DCDD90651DE821FC00222438 /* UIView+KMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KMExtension.h"; sourceTree = "<group>"; };
+		DCDD90661DE821FC00222438 /* UIView+KMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KMExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +134,8 @@
 		DCDD904A1DE7DBA500222438 /* NDDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				DCDD905C1DE7DBF000222438 /* NSDictionary+kmExt.h */,
-				DCDD905D1DE7DBF000222438 /* NSDictionary+kmExt.m */,
+				DCDD905C1DE7DBF000222438 /* NSDictionary+KMExtension.h */,
+				DCDD905D1DE7DBF000222438 /* NSDictionary+KMExtension.m */,
 			);
 			path = NDDictionary;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 		DCDD904D1DE7DBA500222438 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				DCDD905F1DE7DC9000222438 /* NSString+kmExt.h */,
-				DCDD90601DE7DC9000222438 /* NSString+kmExt.m */,
+				DCDD905F1DE7DC9000222438 /* NSString+KMExtension.h */,
+				DCDD90601DE7DC9000222438 /* NSString+KMExtension.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -152,8 +152,8 @@
 		DCDD90501DE7DBA500222438 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				DCDD90621DE8215600222438 /* UIImage+kmExt.h */,
-				DCDD90631DE8215600222438 /* UIImage+kmExt.m */,
+				DCDD90621DE8215600222438 /* UIImage+KMExtension.h */,
+				DCDD90631DE8215600222438 /* UIImage+KMExtension.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -161,8 +161,8 @@
 		DCDD90531DE7DBA500222438 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				DCDD90651DE821FC00222438 /* UIView+kmExt.h */,
-				DCDD90661DE821FC00222438 /* UIView+kmExt.m */,
+				DCDD90651DE821FC00222438 /* UIView+KMExtension.h */,
+				DCDD90661DE821FC00222438 /* UIView+KMExtension.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -239,14 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCDD905E1DE7DBF000222438 /* NSDictionary+kmExt.m in Sources */,
+				DCDD905E1DE7DBF000222438 /* NSDictionary+KMExtension.m in Sources */,
 				DCDD90331DE7DB1500222438 /* ViewController.m in Sources */,
-				DCDD90611DE7DC9000222438 /* NSString+kmExt.m in Sources */,
+				DCDD90611DE7DC9000222438 /* NSString+KMExtension.m in Sources */,
 				DCDD90571DE7DBA500222438 /* KMLocationHelp.m in Sources */,
 				DCDD90301DE7DB1500222438 /* AppDelegate.m in Sources */,
-				DCDD90641DE8215600222438 /* UIImage+kmExt.m in Sources */,
+				DCDD90641DE8215600222438 /* UIImage+KMExtension.m in Sources */,
 				DCDD90561DE7DBA500222438 /* SoundsPlayer.m in Sources */,
-				DCDD90671DE821FC00222438 /* UIView+kmExt.m in Sources */,
+				DCDD90671DE821FC00222438 /* UIView+KMExtension.m in Sources */,
 				DCDD902D1DE7DB1500222438 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

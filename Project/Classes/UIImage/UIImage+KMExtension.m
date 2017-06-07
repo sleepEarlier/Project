@@ -6,9 +6,9 @@
 //  Copyright © 2016年 kimiLin. All rights reserved.
 //
 
-#import "UIImage+kmExt.h"
+#import "UIImage+KMExtension.h"
 
-@implementation UIImage (kmExt)
+@implementation UIImage (KMExtension)
 
 + (UIImage *) km_resizeImageWithName:(NSString *)imageName
 {
@@ -33,7 +33,7 @@
 }
 
 
-+ (instancetype)km_screenShowImageWithStatusBar:(BOOL)containStatusBar {
++ (instancetype)km_screenshotImageWithStatusBar:(BOOL)containStatusBar {
     
     UIWindow *window = [[UIApplication sharedApplication].delegate window];
     CGRect bounds = window.bounds;

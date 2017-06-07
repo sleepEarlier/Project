@@ -11,27 +11,27 @@
 @interface SoundsPlayer : NSObject
 @property(assign,nonatomic)BOOL isBGMPlaying;
 /**
- *  播放背景音乐
+ *  play background music, repeated (播放背景音乐，重复)
  *
- *  @param path 文件路径
+ *  @param path file path (文件路径)
  */
 + (void)playBackgroundMusicOfPath:(NSString*)path repeat:(BOOL)isRepeat;
 
 /**
- *  播放音效，默认不重复
+ *  play sound effect, not repeated (播放音效，不重复)
  *
- *  @param path 文件路径
+ *  @param path file path (文件路径)
  */
 + (void)playEffectMusicOfPath:(NSString*)path;
 
 
 /**
- *  停止播放背景音乐
+ *  stop play background music (停止播放背景音乐)
  */
 + (void)stopBackgroundMusic;
 
 /**
- *  获取单例
+ *  get singleton (获取单例)
  */
 + (instancetype)shareInstance;
 

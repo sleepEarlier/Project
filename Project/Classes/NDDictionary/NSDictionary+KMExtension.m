@@ -6,9 +6,9 @@
 //  Copyright © 2016年 kimiLin. All rights reserved.
 //
 
-#import "NSDictionary+kmExt.h"
-#import "NSString+kmExt.h"
-@implementation NSDictionary (kmExt)
+#import "NSDictionary+KMExtension.h"
+#import "NSString+KMExtension.h"
+@implementation NSDictionary (KMExtension)
 
 -(NSString*) km_urlEncodedKeyValueString {
     

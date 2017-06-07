@@ -6,10 +6,10 @@
 //  Copyright © 2016年 kimiLin. All rights reserved.
 //
 
-#import "NSString+kmExt.h"
+#import "NSString+KMExtension.h"
 #import <CommonCrypto/CommonCrypto.h>
 
-@implementation NSString (kmExt)
+@implementation NSString (KMExtension)
 - (NSString *) km_md5
 {
     const char *cStr = [self UTF8String];
@@ -47,6 +47,11 @@
     NSError *error = nil;
     id json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
     return error?nil:json;
+}
+
+- (NSRange)km_range {
+    NSRange range = NSMakeRange(0, self.length);
+    return range;
 }
 
 @end

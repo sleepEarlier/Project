@@ -22,7 +22,7 @@
     CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
     if (status == kCLAuthorizationStatusDenied) {
         if (fail) {
-            fail(nil);
+            fail([NSError errorWithDomain:NSCocoaErrorDomain code:0 userInfo:@{NSLocalizedDescriptionKey:@"User authorize failed.(未取得用户地理位置授权)"}]);
         }
     } else {
         self.shouldDecodeLocation = shouldDecode;
@@ -49,7 +49,7 @@
     }
     else {
         if (self.successAction) {
-            self.successAction(latestLocation,nil);
+            self.successAction(latestLocation,latestLocation);
         }
     }
 }
