@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/sleepEarlier/Project"
 
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE"}
 
   s.author       = { "sleepEarlier" => "jky130@qq.com" }
 
